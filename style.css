@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cause:wght@100..900&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Ubuntu+Condensed&display=swap');
 
 /*body CSS*/
 @media screen and (min-width: 750px) {
@@ -348,11 +349,29 @@ blockquote {
     text-align: center;
     vertical-align: top;
     font-size: 18px;
-    border: 5px solid #253554;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
 }
+
+.videocaptions {
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-size:medium;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-style: normal;
+}
+
 
 .vidwrapper {
     float: none;
@@ -376,6 +395,16 @@ blockquote {
     margin-bottom: 50px;
     margin-top: 75px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.extramargin {
+    margin-bottom: 100px;
+    margin-top: 105px;
+}
+
+.sidemargins{
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .h3 {
